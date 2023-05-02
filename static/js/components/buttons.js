@@ -69,4 +69,44 @@ class SubtractButton extends Button {
   }
 }
 
-export { Button, AddButton, SubtractButton };
+/**
+ * ResetButton class that resets the counter to 0 when clicked
+ * @class ResetButton
+ * @extends Button
+ */
+class ResetButton extends Button {
+  constructor(element, counter) {
+    super(element, counter);
+  }
+
+  /**
+   * Handle the button click event
+   * @memberof ResetButton
+   */
+  handleClick() {
+    super.handleClick();
+    this.reset();
+    this.alert();
+  }
+
+  /**
+   * Display an alert notification when the button is clicked
+   * @memberof ResetButton
+   */
+  alert() {
+    const alertElement = document.querySelector(
+      `[data-key="alert-notification"]`
+    );
+    alertElement.open = true;
+  }
+
+  /**
+   * Reset the counter to 0 when the button is clicked.
+   * @memberof ResetButton
+   */
+  reset() {
+    this.counter.reset();
+  }
+}
+
+export { Button, AddButton, SubtractButton, ResetButton };

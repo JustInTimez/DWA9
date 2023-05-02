@@ -11,7 +11,7 @@ class Counter {
 
   /**
    * Updates the counter value and updates the display. Also ensures that the counter cannot go into negative
-   * @param {number} value - The value to add or subtract from the current value.
+   * @param {number} value - The value to add or subtract from the current value
    * @memberof Counter
    */
   update(value) {
@@ -21,6 +21,15 @@ class Counter {
     } else {
       this.value = newValue;
     }
+    this.element.value = this.value;
+  }
+
+  /**
+   * Reset the counter to 0.
+   * @memberof Counter
+   */
+  reset() {
+    this.value = 0;
     this.element.value = this.value;
   }
 }
