@@ -7,7 +7,7 @@ In this module, I am required to use the Shoelace component library in a brand-n
 ## User Stories (Gherkin syntax)
 
 ### SCENARIO 1: Increment the counter by one
-- GIVEN the tally counter app is open - [ ]
+- GIVEN the tally counter app is open
 - AND the counter is at 0
 - WHEN I click the "Add" button
 - THEN the counter should display 1
