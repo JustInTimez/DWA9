@@ -1,5 +1,5 @@
-# DWA9
-Dynamic Web Apps 9 Challenge
+# DWA10
+Dynamic Web Apps 10 Challenge
 
 ## Description
 In this module, I am required to use the Shoelace component library in a brand-new JavaScript project and build the original Tally App example from the very first lesson using only Shoelace components. I have been provided with three user stories that should be met at a minimum, however, I am encouraged to add additional functionality. I am free to choose the components I think are best suited to meet these user stories.
