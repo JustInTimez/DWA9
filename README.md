@@ -2,12 +2,12 @@
 Dynamic Web Apps 9 Challenge
 
 ## Description
-In this module, you will be required to use the Shoelace component library in a brand-new JavaScript project and build the original Tally App example from the very first lesson using only Shoelace components. You will be provided with three user stories that should be met at a minimum, however, you are encouraged to add additional functionality. You are free to choose the components you think are best suited to meet these user stories.
+In this module, I am required to use the Shoelace component library in a brand-new JavaScript project and build the original Tally App example from the very first lesson using only Shoelace components. I have been provided with three user stories that should be met at a minimum, however, I am encouraged to add additional functionality. I am free to choose the components I think are best suited to meet these user stories.
 
 ## User Stories (Gherkin syntax)
 
 ### SCENARIO 1: Increment the counter by one
-- GIVEN the tally counter app is open 
+- [] GIVEN the tally counter app is open
 - AND the counter is at 0
 - WHEN I click the "Add" button
 - THEN the counter should display 1
