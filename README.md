@@ -19,9 +19,8 @@ In this module, I am required to use the Shoelace component library in a brand-n
 - [X] THEN the counter should display 0
 
 ### SCENARIO 3: Resetting the Tally Counter
-- GIVEN the tally counter app is open
-- AND the counter value is 10
-- WHEN I click on the "Reset" button
-- THEN the counter value should change to 0
-- AND a confirmation message should be displayed that the counter has been reset
-
+- [X] GIVEN the tally counter app is open
+- [X] AND the counter value is 10
+- [X] WHEN I click on the "Reset" button
+- [X] THEN the counter value should change to 0
+- [X] AND a confirmation message should be displayed that the counter has been reset

@@ -24,10 +24,17 @@
 
     <main class="counter">
         <input readonly type="text" class="counter_value" value="0" data-key="number">
-        <sl-button variant="default">
+        <sl-button variant="default" data-key="reset">
             <sl-icon slot="suffix" name="arrow-counterclockwise"></sl-icon>
-            Refresh
+            Reset Counter
         </sl-button>
+
+        <sl-alert variant="primary" data-key="alert-notification" closable class="alert-closable">
+            <sl-icon slot="icon" name="info-circle"></sl-icon>
+            <strong>You have reset the counter!</strong><br />
+            Tally is now back to 0
+        </sl-alert>
+
         <div class="counter_actions">
             <sl-button size="large" class="counter_button counter_button_first" data-key="subtract">-</sl-button>
             <sl-button size="large" class="counter_button" data-key="add">+</sl-button>
