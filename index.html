@@ -8,20 +8,29 @@
     <title>DWA9 Challenge 1</title>
     <meta name="description" content="In this module, you will be required to use the Shoelace component library in a brand-new JavaScript project 
         and build the original Tally App example from the very first lesson using only Shoelace components.">
-    <!-- Custom CSS -->    
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./static/css/styles.css">
     <!-- Custom JavaScript -->
     <script src="./static/js/index.js" defer type="module"></script>
     <!-- Shoelace Library -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.4.0/dist/themes/light.css" />
-    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.4.0/dist/shoelace-autoloader.js"></script>
+    <script type="module"
+        src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.4.0/dist/shoelace-autoloader.js"></script>
 </head>
 
 <body>
+    <!-- Alert notification -->
+    <sl-alert variant="primary" duration="2500" data-key="alert-notification" closable class="alert-closable">
+        <sl-icon slot="icon" name="info-circle"></sl-icon>
+        <strong>You have reset the counter!</strong><br />
+        Tally is now back to 0
+    </sl-alert>
+
     <header class="header">
-        <h1 class="header_title">Tally Count</h1>
+        <h1 class="header_title">Tally Count with Components</h1>
     </header>
 
+    <!-- Counter area with buttons -->
     <main class="counter">
         <input readonly type="text" class="counter_value" value="0" data-key="number">
         <sl-button variant="default" data-key="reset">
@@ -29,17 +38,12 @@
             Reset Counter
         </sl-button>
 
-        <sl-alert variant="primary" data-key="alert-notification" closable class="alert-closable">
-            <sl-icon slot="icon" name="info-circle"></sl-icon>
-            <strong>You have reset the counter!</strong><br />
-            Tally is now back to 0
-        </sl-alert>
-
         <div class="counter_actions">
             <sl-button size="large" class="counter_button counter_button_first" data-key="subtract">-</sl-button>
             <sl-button size="large" class="counter_button" data-key="add">+</sl-button>
         </div>
     </main>
+
     <footer class="footer">
         Inspired by <a class="footer_link" href="https://tallycount.app/">Tally Count App</a>. Note that this is mearly
         a student practice project for learning JavaScript

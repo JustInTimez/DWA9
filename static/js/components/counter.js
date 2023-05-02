@@ -25,7 +25,7 @@ class Counter {
   }
 
   /**
-   * Reset the counter to 0.
+   * Reset the counter to 0
    * @memberof Counter
    */
   reset() {
