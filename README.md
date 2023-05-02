@@ -7,16 +7,16 @@ In this module, I am required to use the Shoelace component library in a brand-n
 ## User Stories (Gherkin syntax)
 
 ### SCENARIO 1: Increment the counter by one
-- GIVEN the tally counter app is open
-- AND the counter is at 0
-- WHEN I click the "Add" button
-- THEN the counter should display 1
+- [X] GIVEN the tally counter app is open
+- [X] AND the counter is at 0
+- [X] WHEN I click the "Add" button
+- [X] THEN the counter should display 1
 
 ### SCENARIO 2: Decrement the counter by one
-- GIVEN the tally counter app is open
-- AND the counter is at 1
-- WHEN I click the "Subtract" button
-- THEN the counter should display 0
+- [X] GIVEN the tally counter app is open
+- [X] AND the counter is at 1
+- [X] WHEN I click the "Subtract" button
+- [X] THEN the counter should display 0
 
 ### SCENARIO 3: Resetting the Tally Counter
 - GIVEN the tally counter app is open
