@@ -56,8 +56,7 @@ class AddButton extends Button {
  */
 class SubtractButton extends Button {
   /**
-   * Returns the value to be subtracted from the counter value when the button is clicked
-   * If the counter value is already 0, return 0 instead
+   * Ensures that the button does not cause the counter to go below 0, but it still allows the counter to be set to 0.
    * @returns {number} The value to be subtracted from the counter value
    * @memberof SubtractButton
    */
